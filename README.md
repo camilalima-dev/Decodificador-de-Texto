@@ -57,4 +57,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## 📞 Contato
 
-Para dúvidas ou sugestões, entre em contato através do [LinkedIn](https://www.linkedin.com/in/camilaflima/) ou envie um e-mail para seu-email@dominio.com.
+Para dúvidas ou sugestões, entre em contato através do [LinkedIn](https://www.linkedin.com/in/camilaflima/).
