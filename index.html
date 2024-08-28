@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logoAlura" src="img/logo-alura.png" alt="logo da Alura">
+        </header>
+        <div class="container">
+            <div class="Entrada">
+                <textarea id="input-text" placeholder="Digite seu texto aqui..."></textarea>
+                <p class="aviso"> 
+                    <img class="exclamacao_icon" src="img/Frame 1.png" alt="Apenas letras minúsculas e sem acento."> 
+                </p>
+                <div class="buttons">
+                    <button class="botao" id="btn_criptografar" type="button" onclick="criptografarTexto()">Criptografar</button>
+                    <button class="botao" id="btn_descriptografar" type="button" onclick="descriptografarTexto()">Descriptografar</button>
+                    <button class="botao" id="btn_limpar" type="button" onclick="limparTexto()">Reiniciar</button>
+                </div>
+            </div>
+            <div class="decodificacao">
+                <img class="imagem_boneco" src="img/boneco.png.png" alt="Nenhuma mensagem encontrada">
+                <p id="nota">Nenhuma mensagem <br>encontrada</p>
+                <p class="texto_insira" name="texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="btn_oculto" id="btn_copiar" type="button" style="display: none;">Copiar</button>
+            </div>
+        </div>
+    </main>   
+    <footer class="rodape">
+        <p class="texto_rodape">Projeto criado por Camila Lima, em 2024 para fins estudantis.</p>
+    </footer>
+    <script src="app.js"></script> 
+</body>
+</html>

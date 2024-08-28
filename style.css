@@ -1,0 +1,173 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+   
+:root {
+    --cor-principal: #0d6efd;
+    --cor-secundaria: #0b5ed7;
+    --cor-texto: #fff;
+    --cor-fundo: #f5f5f5;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F3F5FC;
+}
+
+.logoAlura {
+    width: Hug (120px)px;
+    height: Hug (48px)px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+    opacity: 0px;
+    margin: 2% 1%;
+}
+
+#input-text {
+    width: 680px;
+    height: 250px;
+    margin: 1% 5% 5%;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    background-color:#F3F5FC;
+    border: none
+}
+
+.aviso {
+    margin: 1% 5%;
+    font-size: 0.75em;
+    color: #0A3871;
+}
+
+.buttons {
+    display: flex;
+    width: Fixed (680px)px;
+    height: Hug (67px)px;
+    top: 885px;
+    left: 240px;
+    gap: 10px;
+    opacity: 0px;
+    margin: 1% 5% 5%;
+    align-items: center
+}
+
+button {
+    height: 5vh;
+    width: 18vw;
+    padding: 10px 20px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+textarea, button {
+    cursor: pointer;
+}
+
+#btn_copiar {
+    height: 5vh;
+    width: 18vw;
+    margin: 20% 18%;
+    padding: 10px 20px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn_copiar:hover {
+    background-color: #0b5ed7;
+}
+
+.decodificacao {
+    margin: 2% 2% 2% 72%;
+    bottom: 8vh;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    word-wrap: break-word; /* Quebra palavras longas */
+    white-space: normal;
+}
+
+.imagem_boneco {
+    margin: 20%;
+}
+
+#nota {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 700; 
+}
+
+.texto_insira {
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1em;
+    margin: 5%;
+    padding: 5%;
+    font-family: var(--fonte-primaria);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn_oculto {
+    display: none;
+}
+
+.rodape {
+    padding: 1%;
+    text-align: center;
+    background-color: #0A3871;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px; /* Ajuste conforme a altura desejada */
+
+.texto_rodape {
+    font-family: var(--fonte-primaria);
+    color: #FFFFFF;
+}
